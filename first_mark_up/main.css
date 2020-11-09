@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/* wrapper */
+.wrapper{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* title */
+
+.title{
+    height: 24px;
+    background-color: #F7F7F7;
+    padding: 3px;
+    position: relative;
+}
+
+.title__main{
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    margin-top: 4px;
+    
+}
+
+.title__stores{
+    position: absolute;
+    font-size: 10px;
+    font-weight: 400;
+    top: 14px;
+    right: 24px;
+}
+
+/* header */
+
+.header{
+    height: 132px;
+}
+
+.header__main{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.header__logo{
+    font-size: 38px;
+    font-weight: 700;
+    color: #333333;
+    margin-left: 24px;
+}
+
+.header__input{
+    width: 584px;
+    height: 48px;
+    background: #F7F7F7;
+    border: 1px solid #F2F2F2;
+    border-radius: 3px;
+    padding-left: 16px;
+    background: url(/img/loop.png) no-repeat;
+    background-position: bottom 16px right 16px;
+
+}
+
+::placeholder{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.header__basket{
+    display: flex;
+    font-weight: 600;
+    font-size: 11px;
+    margin-right: 86px;
+    margin-top: 29px;
+    color: #000;
+}
+
+.header__basket-text{
+    width: 69px;
+    height: 17px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 22px;
+
+}
+
+.header__basket-image{
+    height: 24px;
+    left: 18px;
+}
+
+.basket__counter{
+    background: #F2DA91;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 24px;
+    line-height: 22px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.navigation{
+    text-align: center;
+}
+
+.nav-item{
+    margin: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.main-section{
+    height: 500px;
+    background: lightgoldenrodyellow;
+    padding-top: 188px;
+    box-sizing: border-box;
+    background: url(./img/background.png) center no-repeat;
+}
+
+.main-section__title{
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+}
+
+.registration{
+    font-weight: 400;
+    font-size: 12px;
+    width: 440px;
+    margin: 30px auto;
+
+}
+
+.registration__input{
+    width: 334px;
+    height: 32px;
+    border: 1px solid #E1E0E1;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 8px;
+
+}
+
+.registration__button{
+    height: 32px;
+    width: 94px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #000;
+    font-weight: 600;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    border: #000;
+}
+
+.footer{
+    height: 200px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.footer__column_icons{
+    display: flex;
+}
+
+.footer__column{
+    width: 133px;
+}
+
+.column__title{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px;
+    
+}
+
+.column__item{
+    font-weight: 400;
+    font-size: 12px;
+    margin: 10px;
+
+}
+
+.copyright{
+    text-align: center;
+    background-color: #f7f7f7;
+    font-weight: 400;
+    font-size: 9px;
+}
+
